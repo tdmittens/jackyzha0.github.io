@@ -5,7 +5,7 @@
     - link_name: website
       link: https://www.ruhacks.com/
   desc:
-
+    Part of a 4-person development team to help develop the main website and application portal for RU Hacks 2021.
   techlist:
     - React
     - Javascript
