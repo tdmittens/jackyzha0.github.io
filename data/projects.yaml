@@ -1,233 +1,56 @@
-- name: Legist
+- name: BubblyBot
   expand: false
-  short_desc: a platform to summarize policy for democracy
+  short_desc: a discord bot designed to gamify spread of positivity in any Discord server using sentiment analysis
   links:
     - link_name: devpost
-      link: https://devpost.com/software/legist
+      link: https://devpost.com/software/bubblybot
     - link_name: github
-      link: https://github.com/htn2020plusplus
+      link: https://github.com/tdmittens/bubblybot-nwHacks2021
   desc:
-    Legist is a web platform that allows users to digest policies in an efficient and accessible manner. Legist allows users view automagically summarize pieces of policy + legislation while still maintaining the key takeaways, view and filter policies by category, and subscribe to periodic rollups on updates. Frontend was built with React + Typescript + Chakra UI. Text summarization was done using DistilBART, Named-entity recognition with BERT, and zero-shot text categorization using BART. All models were served with BentoML. Built at Hack the North 2020++, winning the Founder Institute Fellowship Prize and finalist among over 3000+ participants
+    Since COVID-19 hit the world by storm, we noticed that many people had begun to use Discord servers as a way of communicating in large clusters. However, many Discord servers run into issues of their members sometimes being negative towards one another, and sometimes that behaviour becomes commonplace. We built a bot that seeks to gamify the experience of providing positivity to one another within any Discord server you use it in. The bot tracks the positivity/'bubbliness' of all members in the server and compiles a leaderboard, assigning the role of 'Bubbliest' to the most positive server member.
   techlist:
-    - React
-    - Firebase
-    - GraphQL
-    - CockroachDB
-    - Node.js
-    - Flask
-    - Docker
-    - MailGun
-    - BentoML
-    - HuggingFace
-  lang_ratios:
-    - name: TypeScript
-      percent: 40
-    - name: Python
-      percent: 35
-    - name: JavaScript
-      percent: 20
-    - name: Dockerfile
-      percent: 5
-
-- name: ctrl-v
-  expand: false
-  short_desc: a modern, open-source pastebin
-  links:
-    - link_name: site
-      link: https://ctrl-v.app/
-    - link_name: github
-      link: https://github.com/jackyzha0/ctrl-v
-  desc:
-    ctrl-v is a modern, open-source pastebin with LaTeX and Markdown rendering support. Any user can create a paste without an account, with the ability to protect it with a password and set an expiry date. Additionally, ctrl-v does code highlighting as well as LaTeX and Markdown rendering. Pastes are stored in a MongoDB Atlas instance. Backend is a containerized Go service deployed on Google Cloud Run. Frontend is a React app deployed via Firebase Hosting.
-  techlist:
-    - React
-    - Firebase
-    - styled-components
-    - MongoDB
-    - Cloud Run
-    - GCR
-  lang_ratios:
-    - name: JavaScript
-      percent: 70
-    - name: Go
-      percent: 20
-    - name: Dockerfile
-      percent: 5
-    - name: HTML
-      percent: 5
-
-- name: reflect
-  expand: false
-  short_desc: a mindful website blocker for the productive
-  links:
-    - link_name: site
-      link: https://getreflect.app/
-    - link_name: github
-      link: https://github.com/jackyzha0/reflect-chrome
-  desc:
-    reflect is a browser extension with 800+ active users focused around asking users to reflect before visiting distracting sites, helping to
-    reduce mindless scrolling while still being able to get work done. During closed-beta, we created a Go service that logged 
-    user intents to a Cloud SQL database and did intent classification by serving a basic Flask API. We then trained an LSTM network 
-    in Keras on the closed-beta data and augmented it using NLP data augmentation techniques, reaching ~86% classification accuracy.
-    Finally, the model was ported to Tensorflow.js where it runs in-browser within the extension which is written in Typescript.
-  techlist:
-    - Kubernetes
-    - Docker
-    - GKE
-    - Cloud SQL
-    - Keras
-    - Tensorflow.js
-    - Flask
-    - CircleCI
-  lang_ratios:
-    - name: TypeScript
-      percent: 52
-    - name: Python
-      percent: 28
-    - name: Go
-      percent: 15
-    - name: Dockerfile
-      percent: 5
-
-- name: nanoDB
-  expand: false
-  short_desc: a simple, easy, and debuggable document database
-  links:
-    - link_name: godoc
-      link: https://godoc.org/github.com/jackyzha0/nanoDB
-    - link_name: github
-      link: https://github.com/jackyzha0/nanodb
-  desc:
-    nanoDB arose out of many frustrations I've personally come across while prototyping, namely 1) difficulty of debugging data 2) faffing around with language specific drivers and 3) reference resolution. As a result, nanoDB stores everything on disk as a JSON document, has built-in reference resolution, and can be used fully through a REST API. Think of it like Redis but with MongoDB style documents — all of which is on-disk, human-readable, and through a REST API. The project is fully written in Go and is thoroughly unit-tested. It features a standalone server binary which creates a nanoDB server, as well as a shell which allows you to do some basic document inspection.
-  techlist:
-    - Docker
-  lang_ratios:
-    - name: Go
-      percent: 95
-    - name: Dockerfile
-      percent: 5
-
-- name: readAR
-  expand: false
-  short_desc: an AR app to help those with learning disabilities
-  links:
-    - link_name: devpost
-      link: https://devpost.com/software/readar-twh41m
-    - link_name: github
-      link: https://github.com/jackyzha0/treehacks2020-backend
-  desc:
-    readAR is a mobile AR app re-renders text to be more dyslexic-friendly, and 
-    adds context-dependent word definitions and images. A custom BERT model was created and trained
-    for word sense disambiguation (WSD), achieving a 76.6% F1% score on the test dataset which is only ~5% away from
-    state-of-the-art. This model is served through Flask on an Oracle VM Instance. The API is also responsible for 
-    our image processing pipeline, which is a conglomerate of different Azure APIs (OCR, Text Analytics, Bing Search).
-    Built at TreeHacks 2020, winning the Microsoft Azure Champ Prize - Hack for Good.
-  techlist:
-    - PyTorch
-    - Flask
-    - Dockerfile
     - Azure
-    - Oracle Cloud
+    - Firebase
+    - Python
+    - Discord.py
   lang_ratios:
     - name: Python
-      percent: 97.2
-    - name: Dockerfile
-      percent: 2.2
-    - name: Bash
-      percent: 0.6
-
-- name: Impostor
-  expand: false
-  short_desc: group pomodoro timer with a twist
-  links:
-    - link_name: devpost
-      link: https://devpost.com/software/impostor
-    - link_name: github
-      link: https://github.com/h4ckh0use
-  desc:
-    Imposter is a productivity timer designed to keep friends on task together even when working remotely. The Chrome extension monitors your browser tabs, checking against a blocklist of unproductive sites. If one of those websites is visited, the backend will be notified via Firebase and will notify all users in the room through a WebSocket connection. Chat and character customization is also supported. Won track finalist and 2nd place for Disney prize.
-  techlist:
-    - Firestore
-    - WebSockets
-    - Node.js
-    - Heroku
-  lang_ratios:
-    - name: JavaScript
       percent: 100
 
-- name: Speech2Braille
+- name: KaraokeBot
   expand: false
-  short_desc: a wearable device to transcribe speech
-  links:
-    - link_name: paper
-      link: res/gvrsf_report.pdf
-    - link_name: github
-      link: https://github.com/jackyzha0/Speech2Braille
-  desc:
-    Speech2Braille was created to help the over 360 million people in the 
-    world who have debilitating hearing loss. This project entailed creating 
-    an end-to-end speech recognition system using an Deep LSTM and a portable 
-    device to display braille. The device is able to recognize audio and transcribe 
-    it into Braille through the haptic feedback device via a novel neural network architecture. The 
-    feedback device is a self-made GPIO hat, consisting of 6 solenoids. The neural network itself is 2 layered LSTM-CTC 
-    network with 256 hidden cells in each layer, achieving 92% state-of-the-art word error rate on the TIMIT dataset. 
-    Won Silver and 10k in awards at the Canada Wide Science Fair.
-  techlist:
-    - Tensorflow
-    - numpy
-    - Raspberry Pi
-  lang_ratios:
-    - name: Python
-      percent: 89.9
-    - name: Bash
-      percent: 10.1
-
-- name: PacketBook
-  expand: false
-  short_desc: blockchain banking without internet
+  short_desc: fun and competitive karoake features in discord 
   links:
     - link_name: devpost
-      link: https://devpost.com/software/packetbook
+      link: https://devpost.com/software/karaokebot
     - link_name: github
-      link: https://github.com/jackyzha0/PacketBook
+      link: https://github.com/SherRao/HackTheNorth2020-
   desc:
-    PacketBook is a financial accessibility chatbot, fully accessible through 
-    the SMS (text messaging) protocol. Users are able to issue simple commands to 
-    register, check their balance, deposit, withdraw, and send money. These commands 
-    are secured with two-factor authentication through a Flask server on Heroku 
-    with Twilio. The backend that handles transaction is written with Node and Express 
-    and deployed on stdlib. PacketBook is unique in that it leverages the Stellar 
-    blockchain and tokens (XLM) for its transactions which greatly reduces operating 
-    overhead with its minimal transaction costs (around 1/100 of a cent per transaction). Won top 30 and the SAP prize at nwHacks 2018.
+    KaraokeBot takes a song and artist name and then plays that song. It then detects if you speaking/singing and starts recording. From there it calculates the accuracy of your vocal pitch and lyrical accuracy with that of the song and artist. Once complete, you will be given a score that you can compare with friends to see who is the most talented.
   techlist:
-    - MongoDB
-    - Node.js
-    - Express
-    - Flask
-    - Stellas
-    - Heroku
+    - Python
+    - Firebase
+    - Javascript
+    - Numpy
+    - Pydub
+    - Azure
+    - Discord.js
   lang_ratios:
-    - name: JavaScript
-      percent: 80.8
     - name: Python
-      percent: 19.2
+      percent: 100
 
-- name: Personal Website
+- name: Homestock
   expand: false
-  short_desc: the thing you're on right now
+  short_desc: A simplified house inventory system for the elderly
   links:
+    - link_name: devpost
+      link: https://devpost.com/software/homestock
     - link_name: github
-      link: https://github.com/jackyzha0/jackyzha0.github.io
+      link: https://github.com/SherRao/OpenHacks-2020
   desc:
-    I got tired of adding divs and text manually everytime I wanted to update a project/add new stuff, so I decided to something more powerful that supports templating to do it for me automatically. It takes advantage of Go templates in order to generate the site from just a few config files! Now, updating the site is as simple as editing a YAML file. Continous integration and deployment done through Github Actions.
+    With our busy lifestyles, it can be difficult to remember where our most coveted items are & when they need replacing. This problem is amplified for our elderly. We wanted to create a product that could help solve these problems while also having an easy to use interface. This app allows a user to view items in different rooms around the house, modify expiration/replacement dates, and set descriptions to define the location of the items in these rooms. The app is set with a predefined list of items so there is no additional work required on the user's end, meaning this app is ready out of the box. 
   techlist:
-    - Hugo
-    - lite.css
-    - Github Actions
+    - Java
   lang_ratios:
-    - name: JavaScript
-      percent: 35
-    - name: HTML
-      percent: 35
-    - name: SCSS
-      percent: 30
+    - name: Java
+      percent: 100

@@ -1,0 +1,30 @@
+- name: RU Hacks
+  expand: false
+  short_desc: Development Team 
+  links:
+    - link_name: website
+      link: https://www.ruhacks.com/
+  desc:
+
+  techlist:
+    - React
+    - Javascript
+    - Redux
+    - HTML
+    - CSS
+
+- name: World Cube Association (WCA)
+  expand: false
+  short_desc: Ethics Committee Member 
+  links:
+    - link_name: profile
+      link: https://www.worldcubeassociation.org/persons/2014MITT02
+  desc:
+    Currently collaborating with a 6-person international team to conduct ethics investigations into the actions of WCA Staff, WCA External Staff and National Organizations.
+
+
+- name: IISE Ryerson Chapter
+  expand: false
+  short_desc: Competitions Lead
+  links:
+  desc:
