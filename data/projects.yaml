@@ -37,7 +37,9 @@
     - Discord.js
   lang_ratios:
     - name: Python
-      percent: 100
+      percent: 50
+    - name: JavaScript
+      percent: 50
 
 - name: Homestock
   expand: false

@@ -1,5 +1,5 @@
 - name: Honda of Canada Manufacturing
-  expand: false
+  expand: true
   title: Engineer in Training
   img: honda.png
   year: 2021
@@ -10,11 +10,11 @@
 
 - name: Honda of Canada Manufacturing
   expand: true
-  title: Process Engineer (co-op)
+  title: Process Engineer (internship)
   img: honda.png
   year: 2020
   things:
-    To fill
+    At my time at Honda, I worked with production and management to make improvements to the manufacturing line for mass production and new models of the Honda Civic. More specifically, I helped better utilize model-specific manpower idle time to produce additional sub-assemblies in the department, lead a new model project in my group from ideation stage to implementation, and developed a sub-assembly inventory model to  improve utilization of manpower and reduce lineside space required for in-house delivery shipments.
   techlist:
     - Python
     - Excel
