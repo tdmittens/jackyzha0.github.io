@@ -1,85 +1,32 @@
-- name: MLH Fellowship
-  expand: false
-  title: Fellows Class 0
-  img: mlh.png
-  year: 2020
+- name: Honda of Canada Manufacturing
+  expand: true
+  title: Engineer in Training
+  img: honda.png
+  year: 2021
   things:
-    Selected as one of 144 fellows to be part of the inaugural class of the MLH Fellowship program from a pool of 20,000 applicants. Worked on BentoML, an open-source framework for high-performance ML model serving. Reduced docker image size by 60% to enable lighter deployments by building Debian-slim based Docker images for model server. Created Helm chart allowing users to deploy the model storage component to a Kubernetes cluster with a single command rather than needing to follow an entire guide.
+    Incoming job in May 2021.
   techlist:
-    - Pytest
-    - Docker
-    - AWS Lambda
-    - Helm
-    - Kubernetes
   lang_ratios:
-    - name: Python
-      percent: 80
-    - name: Dockerfile
-      percent: 20
 
-- name: nwPlus
-  expand: false
-  title: HackCamp Logistics Director
-  img: nwplus.png
+- name: Honda of Canada Manufacturing
+  expand: true
+  title: Process Engineer (internship)
+  img: honda.png
   year: 2020
   things:
-    Lead a team of 4 in hosting HackCamp, a beginner-focused virtual hackathon, attracting over 900+ registrations, 500+ attendees, 3.2k+ livestream viewers, and $1200 in donations to charities. Co-lead the creation of a publicly available self-learning resources guidebook for tech beginners. Co-lead the development of our hackathon portal which aims to be a central information hub for hackers to do judging, relay announcements, and view the schedule Handled 200k+ interactions on the site during HackCamp.
+    At my time at Honda, I worked with production and management to make improvements to the manufacturing line for mass production and new models of the Honda Civic. More specifically, I helped better utilize model-specific manpower idle time to produce additional sub-assemblies in the department, lead a new model project in my group from ideation stage to implementation, and developed a sub-assembly inventory model to  improve utilization of manpower and reduce lineside space required for in-house delivery shipments.
   techlist:
-    - Gitbook
-    - Firebase
-    - React
-    - Github Actions
+    - Python
+    - Excel
+    - VBA
+    - Simul8
   lang_ratios:
-    - name: JavaScript
-      percent: 100
-
-- name: Hootsuite
-  expand: false
-  title: SWE Intern
-  img: hootsuite.png
-  year: 2020
-  things:
-    Reduced mean time-to-acknowledge for alerts from hours to minutes by adding alerting and monitoring for key SLOs for several tier one services. Added monitoring dashboard and alarms for website cache with AWS CloudWatch. Increased accessibility on paid signup flow and added various end-to-end frontend tests. Implemented various A/B tests. Updated internal metrics collection tools to work with NGINX.
-  techlist:
-    - Twig
-    - React
-    - Jest
-    - Cypress
-    - Terraform
-    - Ansible
-    - Grafana
-    - Prometheus
-  lang_ratios:
-    - name: JavaScript
+    - name: Excel
       percent: 60
-    - name: HCL
-      percent: 25
-    - name: PHP
-      percent: 7.5
-    - name: Scala
-      percent: 7.5
-
-- name: Hootsuite
-  expand: false
-  title: SWE Intern
-  img: hootsuite.png
-  year: 2019
-  things:
-    Implemented a proof of concept service mesh to break Scala monolith service into microservices. Proposal was added to the company technical roadmap for 2023. Implemented an internal endpoint to assist with data compliance requests. Defined and implemented Service Level Objectives (SLOs) for 3 of Hootsuite's
-    core internal services.
-  techlist:
-    - SQL
-    - Envoy
-    - Istio
-    - Kubernetes
-    - Docker
-    - Sumologic
-  lang_ratios:
-    - name: Go
-      percent: 42
-    - name: Scala
-      percent: 33
-    - name: Dockerfile
+    - name: VBA
       percent: 20
-    - name: Bash
-      percent: 6
+    - name: Python
+      percent: 10
+    - name: Simul8
+      percent: 10
+

@@ -1,0 +1,43 @@
+- name: Current - RU Hacks
+  expand: true
+  short_desc: Development Team
+  links:
+    - link_name: website
+      link: https://www.ruhacks.com/
+  desc:
+
+  techlist:
+    - React
+    - Javascript
+    - Redux
+    - HTML
+    - CSS
+
+- name: Current - World Cube Association (WCA)
+  expand: true
+  short_desc: Ethics Committee Member 
+  links:
+    - link_name: profile
+      link: https://www.worldcubeassociation.org/persons/2014MITT02
+  desc:
+    Currently collaborating with a 6-person international team to conduct ethics investigations into the actions of WCA Staff, WCA External Staff and National Organizations.
+
+- name: Current - World Cube Association (WCA)
+  expand: true
+  short_desc: Ethics Committee Member 
+  links:
+  desc:
+    Currently act as a staff member for local and national WCA competitions in Canada.
+
+- name: Current - IISE Ryerson Chapter
+  expand: true
+  short_desc: Competitions Lead
+  links:
+  desc:
+
+- name: 2019 - RU Hacks
+  expand: true
+  short_desc: Marketing Team
+  links:
+  desc: 
+    Supported the creation of marketing materials, development of our Sponsorship Package, and handling of our social media platforms for RU Hacks 2019.

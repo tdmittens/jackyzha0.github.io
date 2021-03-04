@@ -1,20 +1,20 @@
 intro:
 - link_name: about
   link: '#about'
-- link_name: prev
+- link_name: experience
   link: '#experience'
+- link_name: extracurricular
+  link: '#ec'
 - link_name: projects
   link: '#projects'
-- link_name: blog
-  link: https://blog.jzhao.xyz
 footer:
-- link_name: source
-  link: https://github.com/jackyzha0/jackyzha0.github.io
-- link_name: blog
-  link: https://blog.jzhao.xyz
-- link_name: not-work
-  link: /notwork
-- link_name: twitter
-  link: https://twitter.com/_jzhao
+- link_name: github
+  link: https://github.com/tdmittens
+- link_name: wca
+  link: https://www.worldcubeassociation.org/persons/2014MITT02
+- link_name: linkedin
+  link: https://www.linkedin.com/in/tarandeepmittal/
 - link_name: email
-  link: mailto:j.zhao2k19@gmail.com
+  link: mailto:tmittal@ryerson.ca
+- link_name: site source (via jacky)
+  link: https://github.com/tdmittens/jackyzha0.github.io
