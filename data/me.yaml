@@ -1,16 +1,13 @@
-name: Jacky Zhao
-description: Welcome to my little corner of the internet! I'm Jacky, a curious software developer interested in infrastructure, ml, cognitive systems, and ethical tech — anything that can make technology work better for everyone.
-page_title: jacky zhao | a curious software developer interested in infrastructure, ml, cognitive systems, and ethical tech
-github: jackyzha0
-api_url: https://api.github.com/users/jackyzha0
+name: Tarandeep Mittal
+description: Hi there! My name is Tarandeep, and I'm currently a Final Year Industrial Engineering student at Ryerson University.
+page_title: tarandeep mittal | incoming EIT @ Honda, industrial engineering
+github: tdmittens
+api_url: https://api.github.com/users/tdmittens
 descriptors:
-  - Jacky.
+  - Tarandeep.
   - a student.
-  - a software dev.
-  - an avid reader.
+  - an incoming EIT.
 resume:
-  res/2020-jackyzhao-resume.pdf
-failure_resume:
-  https://blog.jzhao.xyz/posts/a-failure-resume/
+  res/tarandeep.pdf
 email:
-  j.zhao2k19@gmail.com
+  tmittal@ryerson.ca
