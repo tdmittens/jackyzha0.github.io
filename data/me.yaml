@@ -1,12 +1,14 @@
 name: Tarandeep Mittal
 description: Hi there! My name is Tarandeep, and I'm currently a Final Year Industrial Engineering student at Ryerson University.
-page_title: tarandeep mittal | incoming EIT @ Honda, industrial engineering
+page_title: tarandeep mittal | industrial engineering
 github: tdmittens
 api_url: https://api.github.com/users/tdmittens
 descriptors:
   - Tarandeep.
   - a student.
-  - an incoming EIT.
+  - an engineer.
+  - an analyst.
+  - a programmer.
 resume:
   res/tarandeep.pdf
 email:
